@@ -14,7 +14,7 @@ import UIKit
 
 class ItemsViewController: UITableViewController
 {
-    var itemsStore = ItemStore!.self
+    var itemStore = ItemStore.self
 
 
 
