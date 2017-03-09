@@ -80,7 +80,7 @@ class Item: NSObject
         
         else
         {
-            self.init(name: "", serialNumber: nil, valueInDollars: 0)
+            self.init(name: "", serialNumber: nil, valueInDollars: 100)
         }
     
     } // end convenience init

@@ -22,9 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let itemStore = ItemStore()
         
         // Access the ItemsViewController and set its item store
-        let itemsController = window!.rootViewController as! ItemsViewController
-        itemsController.itemStore = itemStore
-                
+        let itemController = window!.rootViewController as! ItemsViewController
+        itemController.itemStore = itemStore
+        
         return true
     } // end application
 
